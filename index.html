@@ -3,27 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jorge Ruiz</title>
+    <title>Jorge Ruiz | About Me</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f6;
+            color: #333;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #243b55;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            color: #dce6f0;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: #243b55;
+            margin-top: 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e6edf5;
+            font-size: 22px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .github-link {
+            display: inline-block;
+            background-color: #243b55;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .github-link:hover {
+            background-color: #365777;
+        }
+
+        .github-link:focus-visible {
+            outline: 3px solid #3277bd;
+            outline-offset: 4px;
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            padding: 10px 20px 25px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Jorge Ruiz</h1>
+    <header>
+        <h1>Jorge Ruiz</h1>
+        <!-- Change the major below if needed. -->
+        <p>Computer Engineering Student</p>
+    </header>
 
-    <p>Major: Computer Engineering</p>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hi! My name is Jorge, and I'm a university student studying
+                Computer Engineering. I enjoy learning how computers work,
+                improving my programming skills, and working with technology.
+                In my free time, I like playing video games and building PCs.
+            </p>
+        </section>
 
-    <h2>About Me</h2>
-    <p>
-        Hi, I'm Jorge! I'm a university student who enjoys learning
-        about technology, building computers, and programming.
-    </p>
+        <section>
+            <h2>My Interests</h2>
+            <ul>
+                <li>Programming and solving problems</li>
+                <li>Building PCs and exploring electronics</li>
+                <li>Playing video games</li>
+            </ul>
+        </section>
 
-    <h2>My Interests</h2>
-    <ul>
-        <li>Programming</li>
-        <li>PC building</li>
-        <li>Gaming</li>
-    </ul>
+        <section>
+            <h2>My GitHub</h2>
+            <p>Visit my GitHub profile to check out my projects.</p>
+            <a
+                class="github-link"
+                href="https://github.com/J0rg3Ru1z12"
+            >
+                Visit My GitHub
+            </a>
+        </section>
+    </main>
 
-    <h2>My GitHub</h2>
-    <a href="https://github.com/J0rg3Ru1z12">Visit my GitHub profile</a>
+    <footer>
+        <p>Jorge Ruiz | Personal Website</p>
+    </footer>
 </body>
 </html>
